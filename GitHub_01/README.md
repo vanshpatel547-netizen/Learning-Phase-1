@@ -37,3 +37,17 @@
 ### delete branch :
 
 `` - git branch -d [branch-name] ``
+
+# Undoing in Git :
+
+### unstage (remove Added files) files :
+
+``- git reset `` (defalut last added , you can also give file name )
+
+### Undo commit :
+
+``- git reset HEAD~1 `` ( by doing this you can unstage and uncommit by one step back means undo you can now make changes , add to stage , finally update your commit also )
+
+### Reset hard :
+
+`` - git reset --hard [id-of-commit] `` ( you should show commit id by loging commits ` git log ` , you should copy where you want to jump into your previous code and apply this command )
