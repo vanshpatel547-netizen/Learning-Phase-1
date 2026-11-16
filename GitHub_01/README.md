@@ -33,3 +33,7 @@
 ### Merge branches :
 
 `` - git merge [branch-you-want-to-merge] ``
+
+### delete branch :
+
+`` - git branch -d [branch-name] ``
